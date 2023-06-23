@@ -4,7 +4,7 @@ const products = [
         name: 'Recibidor Curvas',
         price: 3000,
         category: 'Muebles',
-        img:'RecibidorCurvas.jpg',
+        img:'/RecibidorCurvas.jpg',
         stock: 50,
         description: 'Recibidor 100% metálico de líneas curvas'
     },
@@ -13,7 +13,7 @@ const products = [
         name: 'Perchero Medio Punto',
         price: 5000,
         category: 'Muebles',
-        img: 'PercheroMediopunto.jpg',
+        img: '/PercheroMediopunto.jpg',
         stock: 50,
         description: 'Perchero recibidor metálico con arco de medio punto'
     },
@@ -22,7 +22,7 @@ const products = [
         name: 'Luz Desnuda',
         price: 1500,
         category: 'Iluminación',
-        img: 'LuzDesnuda.jpg',
+        img: '/LuzDesnuda.jpg',
         stock: 50,
         description: 'Luminaria minimalista con tubo de luz color a elección'
     },
@@ -31,7 +31,7 @@ const products = [
         name: 'Luz Tubo',
         price: 2100,
         category: 'Iluminación',
-        img: 'LuzTubo.jpg',
+        img: '/LuzTubo.jpg',
         stock: 50,
         description: 'Luminaria minimalista de caño metálico y bombilla opalina'
     },
@@ -40,7 +40,7 @@ const products = [
         name: 'Espejo Forma',
         price: 2500,
         category: 'Espejos',
-        img: 'EspejoForma.jpg',
+        img: '/EspejoForma.jpg',
         stock: 50,
         description: 'Espejo con estructura metálica recortada con forma irregular'
     },
@@ -49,7 +49,7 @@ const products = [
         name: 'Espejo Rejilla',
         price: 1300,
         category: 'Espejos',
-        img: 'EspejoRejilla.jpg',
+        img: '/EspejoRejilla.jpg',
         stock: 50,
         description: 'Espejo de canto pulido con soporte de rejilla metálica'
     },
