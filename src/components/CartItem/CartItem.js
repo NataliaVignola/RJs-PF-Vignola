@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CartItem = ({ id, name, quantity, price, onCancel, onRemove }) => {
+const CartItem = ({ id, name, quantity, price, onRemove }) => {
     // const handleCancel = () => {
     //     onCancel(id);
     // };

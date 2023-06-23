@@ -1,11 +1,8 @@
-import {
-    createContext,
-    useState
-} from "react";
+import {createContext, useState} from "react";
 
 export const CartContext = createContext({
-    cart: [],
-});
+    cart: []
+})
 
 export const CartProvider = ({
     children
@@ -16,11 +13,8 @@ export const CartProvider = ({
 
     const addItem = (item, quantity) => {
         if (!isInCart(item.id)) {
-            setCart((prev) => [...prev, {
-                ...item,
-                quantity
-            }]);
-        } else {
+            setCart((prev) => [...prev, {...item, quantity}]);
+        } else{
             console.error("El producto ya fue agregado");
         }
     };
