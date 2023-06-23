@@ -1,0 +1,32 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgba(224, 200, 42, 0.416);
+}
+
+.NavBar h3 {
+    margin: 0;
+}
+
+.Categories {
+    display: flex;
+    gap: 16px;
+    text-transform: capitalize;
+}
+
+.Option {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.ActiveOption {
+    text-decoration: underline;
+}
