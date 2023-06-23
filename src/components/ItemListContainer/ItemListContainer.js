@@ -13,8 +13,8 @@ const ItemListContainer = ({greeting}) => {
         setLoading(true)
 
         const collectionRef = categoryId
-            ? query(collection(db, 'products'), where('category', '==', categoryId))
-            : collection(db, 'products')
+            ? query(collection(db, 'ProductsLocker'), where('category', '==', categoryId))
+            : collection(db, 'ProductsLocker')
 
         getDocs(collectionRef)
             .then(response => {
