@@ -1,3 +1,5 @@
+// Array de productos que no se utiliza por el use de Firebase como base de datos, lo dejo a modo de back.
+
 const products = [
     {
         id:1,

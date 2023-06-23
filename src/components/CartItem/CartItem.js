@@ -1,19 +1,23 @@
 import React from 'react';
 
-const CartItem = ({ name, quantity, price, total, onCancel, onRemove }) => {
-    const handleCancel = () => {
-        onCancel ();
-    }
+const CartItem = ({ id, name, quantity, price, onCancel, onRemove }) => {
+    // const handleCancel = () => {
+    //     onCancel(id);
+    // };
+
+    const handleRemove = () => {
+        onRemove(id);
+    };
 
     return (
-    <div className="CartItem">
-        <h4>{name}</h4>
-        <p>Cantidad: {quantity}</p>
-        <p>Precio producto: ${price}</p>
-        <p>Sub-total: ${total}</p>
-        <button onClick={handleCancel}>Cancelar</button>
-        <button onClick={onRemove}>Eliminar un producto</button>
-    </div>
+        <div className="CartItem">
+            <h4>{name}</h4>
+            <p>Cantidad: {quantity}</p>
+            <p>Precio unitario: ${price}</p>
+            <p>Total de este producto: ${quantity * price}</p>
+            {/* <button onClick={handleCancel}>Cancelar</button> */}
+            <button onClick={handleRemove}>Eliminar de mi carrito</button>
+        </div>
     );
 };
 
